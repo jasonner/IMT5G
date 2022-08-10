@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><link rel="icon" href="favicon.ico"><title>IMT-2020(5G)大会</title><link href="css/app.24eff9e8.css" rel="preload" as="style"><link href="css/chunk-vendors.dec453c1.css" rel="preload" as="style"><link href="js/app.99cf46cf.js" rel="preload" as="script"><link href="js/chunk-vendors.54c0a59d.js" rel="preload" as="script"><link href="css/chunk-vendors.dec453c1.css" rel="stylesheet"><link href="css/app.24eff9e8.css" rel="stylesheet"></head><body><script>window.onpageshow = function(event) {
+            if (event.persisted) {
+                window.location.reload(true); 
+            };
+        };
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var reg = new RegExp("(Android|iPhone|SymbianOS|Windows Phone|iPad|iPod)", "ig");
+            var isPC = !reg.test(userAgentInfo);
+            return isPC
+        }
+        var initFontSize = function () {
+            var n = document.getElementsByTagName("html")[0],
+                e = document.documentElement.clientWidth;
+            if (IsPC()) {
+                if (e > 750) {
+                    n.style.fontSize = "100px"
+                } else {
+                    n.style.fontSize = e / 750 * 100 + "px"
+                }
+            } else {
+                n.style.fontSize = e / 750 * 100 + "px";
+            }
+        }
+        initFontSize();
+        window.onresize = function () {
+            initFontSize()
+        };</script><noscript><strong>We're sorry but IMT-2020(5G)大会 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.54c0a59d.js"></script><script src="js/app.99cf46cf.js"></script></body></html><script>var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e3a989dd7384d262600c5213b30dd28f";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();</script>
